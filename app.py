@@ -19,7 +19,7 @@ def main():
     print(dados.df)
 
     print('\nLendo arquivo XLSX')
-    dados = LerArquivo(r"C:\POO - Analise de dados\dados_100k_linhas.xlsx")
+    dados = LerArquivo("dados_100k_linhas.xlsx")
     print(dados.df)    
 
     print('\nLendo uma pasta de arquivos CSV de separadores diferentes')
